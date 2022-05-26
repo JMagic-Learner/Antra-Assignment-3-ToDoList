@@ -41,14 +41,12 @@ function moreInfo(input) {
 //   let inputCHECK = document.createElement('input');
 //   inputCHECK.classList.add('checkmark');
 //   inputCHECK.type = "checkbox"
-
+//   inputCHECK.checked = input[i]completed;
 // idNUM.innerHTML = 'UserId: ' + input[i].userId;
 // idFULL.innerHTML = 'Id: ' + input[i].userId;
 // title.innerHTML = 'Title: ' + input[i].title;
 // status.innerHTML = 'Completed: ' + input[i].completed;
-// if (input[i].completed == 'true') {
-//     inputCHECK.checked = "true";
-// }
+//   
 //   todoItemFlex.appendChild(idNUM);
 //   todoItemFlex.appendChild(idFULL);
 //   todoItemFlex.appendChild(title);
