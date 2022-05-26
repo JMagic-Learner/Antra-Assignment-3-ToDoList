@@ -1,6 +1,6 @@
 .header-navigation {
     display:flex;
-    width:80%;
+    width:500px;
     height:100px;
     background-color:red;
     margin:auto;
@@ -15,6 +15,28 @@
     font-size:1.5vh;
 }
 
-a {
-    
+.item-container{
+    display:flex;
+    width: 500px;
+    margin:auto;
+    background-color:lightgray;
+}
+
+.item-container-flex{
+    width:600px;
+    background-color:gray;
+}
+
+.item-container-flex:hover{
+    width:600px;
+    background-color:lightgray;
+}
+
+.container-child{
+    padding-left:2%;
+}
+
+.checkmark {
+    margin-top:5%;
+    width:100px;
 }
